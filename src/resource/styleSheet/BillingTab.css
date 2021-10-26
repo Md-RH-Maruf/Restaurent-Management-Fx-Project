@@ -1,0 +1,48 @@
+.center-align { 
+  -fx-alignment: center; 
+} 
+.center-right-align { 
+  -fx-alignment: center-right; 
+} 
+.center-left-align { 
+  -fx-alignment: center-left; 
+} 
+
+.textFieldBold{
+	-fx-font-weight:bold;
+}
+
+.table-view-list{
+    -fx-font-weight:bold;
+    -fx-font-size:15px;          
+    /* -fx-text-fill:orange; */
+
+}
+
+.table-view-list .column-header {
+    -fx-font-weight:bold;
+    -fx-font-size:12px;          
+    /* -fx-text-fill:orange; */
+}
+
+.table-view-invoice-cell .column-header{
+    -fx-font-size: 12px;
+}
+
+.table-view-invoice-cell {
+    -fx-font-size: 14px;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #95D2E7;
+}
+
+/*.table-row-cell:focused {
+    -fx-background-color:purple;
+}*/
+.tree-view{
+    -fx-font-weight:bold;
+    -fx-font-size:12px;          
+    /* -fx-text-fill:orange; */
+
+}
